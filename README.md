@@ -24,3 +24,10 @@ Example tool output messages:<br>
 
 Example tool file output:<br>
 ![File output](img/backup_output_files.png?raw=true "Backup Tool File Output")
+
+
+## APRX Data Lister
+
+Purpose: walk all maps in an ArcGIS Pro .aprx file and print the layer names, layer data sources, projection, and other useful info about all layers in all maps. 
+
+(comming soon)
