@@ -10,5 +10,17 @@ The URL of your service in AGOL will look something like this
 https://nps.maps.arcgis.com/home/item.html?id=b115ada92f0c4b7cb91ee166a6165ca2
 
 Use the item ID for the tool as input. The tool accepts multiple item IDs. Each service entered will have its own zip file generated in the output folder.
-(img/backup_tool_screenshot.png)
 ![Backup Tool Screenshot](img/backup_tool_screenshot.png?raw=true "Backup Tool Screenshot")
+
+You must be signed into AGOL (or Portal) through Pro to have access to the Item IDs entered into the tool. 
+
+If you regularly enter the same item IDs and output folder, you can enter them as defaults.  To do that, right click on the tool in the Catalog Pane in Pro and go to the tool Properties. Under the Parameters section, enter item IDs separated by a semicolon with no spaces in between. Paste in the catalog path into the Output Folder default. 
+
+Example default parameters:
+![Default params screenshot](img/backup_defaults.png?raw=true "Backup Tool Defaults")
+
+Example tool output messages:
+![Messages screenshot](img/backup_output_messages.png?raw=true "Backup Tool Defaults")
+
+Example tool file output:
+![File output](img/backup_output_files.png?raw=true "Backup Tool File Output")
