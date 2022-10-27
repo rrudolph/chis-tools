@@ -30,6 +30,6 @@ Example tool file output:<br>
 
 ## APRX Data Lister
 
-Purpose: walk all maps in an ArcGIS Pro .aprx file and print the layer names, layer data sources, projection, and other useful info about all layers in all maps. 
+Purpose: walk all maps in an ArcGIS Pro .aprx file and export to csv the layer names, layer data sources, projection, and other useful info about all layers in all maps. Useful for inspecting an aprx file with tons of data with a wide range of data sources. 
 
 (comming soon)
