@@ -6,10 +6,10 @@ Tools used at Channel Islands National Park that are universal enough to share o
 
 To use this tool, copy the item ID from AGOL for the service you want to back up.  The tool will package the service defaulted to a zipped file geodatabase, but it can also export as a shp or geojson file. The file is temporarily staged on your AGOL contents but is removed once downloaded. 
 
-The URL of your service in AGOL will look something like this
+The URL of your service in AGOL will look something like this <br>
 https://nps.maps.arcgis.com/home/item.html?id=b115ada92f0c4b7cb91ee166a6165ca2
 
-Use the item ID for the tool as input. The tool accepts multiple item IDs. Each service entered will have its own zip file generated in the output folder. <br>
+Use the item ID (b115ada92f0c4b7cb91ee166a6165ca2) for the tool as input. The tool accepts multiple item IDs. Each service entered will have its own zip file generated in the output folder. <br>
 ![Backup Tool Screenshot](img/backup_tool_screenshot.png?raw=true "Backup Tool Screenshot")
 
 You must be signed into AGOL (or Portal) through Pro to have access to the Item IDs entered into the tool. 
