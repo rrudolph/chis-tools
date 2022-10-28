@@ -32,4 +32,11 @@ Example tool file output:<br>
 
 Purpose: walk all maps in an ArcGIS Pro .aprx file and export to csv the layer names, layer data sources, projection, and other useful info about all layers in all maps. Useful for inspecting an aprx file with tons of data with a wide range of data sources. 
 
-(comming soon)
+Example screenshot of input parameters.  Drag and drop aprx from windows file explorer.  Output needs full path plus ".csv" extension: <br>
+![Data lister tool params](img/aprx_lister_screenshot.JPGraw=true "aprx data lister tool")
+
+Example screenshot of tool running with output messages:<br>
+![Data lister messages](img/aprx_lister_messages.JPGraw=true "aprx data lister tool messages")
+
+Example csv output. This allows for inspection of broken links or where layers point to data on disk:<br>
+![Data lister messages](img/aprx_lister_output.JPGraw=true "aprx data lister tool messages")
