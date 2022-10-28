@@ -40,4 +40,4 @@ Example screenshot of tool running with output messages:<br>
 <img src="img/aprx_lister_messages.JPG" width="250">
 
 Example csv output. This allows for inspection of broken links or where layers point to data on disk:<br>
-<img src="img/aprx_lister_output.JPG" width="250">
+<img src="img/aprx_lister_output.JPG">
