@@ -4,9 +4,11 @@ Tools used at Channel Islands National Park that are universal enough to share o
 
 ## Backup AGOL Services Tool
 
-Purpose: package an ArcGIS Online or Portal feature service as a zipped file geodatabase with a time stamp and username in the filename. It can also export as a shp or geojson file. The file is temporarily staged on the user's AGOL contents but is removed once downloaded. 
+### Purpose
+Package an ArcGIS Online or Portal feature service as a zipped file geodatabase with a time stamp and username in the filename. It can also export as a shp or geojson file. The file is temporarily staged on the user's AGOL contents but is removed once downloaded. 
 
-To use, enter one more Item ID's into the input parameters of the toolbox. The URL of your service in AGOL will look something like this <br>
+### To Use
+Enter one more Item ID's into the input parameters of the toolbox. The URL of your service in AGOL will look something like this <br>
 https://nps.maps.arcgis.com/home/item.html?id=b115ada92f0c4b7cb91ee166a6165ca2
 
 Use the item ID (b115ada92f0c4b7cb91ee166a6165ca2) of the feature service as input. Each service entered will have its own zip file generated in the output folder. <br>
@@ -30,9 +32,13 @@ Example tool file output:<br>
 
 ## APRX Data Lister
 
-Purpose: walk all maps in an ArcGIS Pro .aprx file and export to csv the layer names, layer data sources, projection, and other useful info about all layers in all maps. Useful for inspecting an aprx file with tons of data with a wide range of data sources. 
+### Purpose
+Walk all maps in an ArcGIS Pro .aprx file and export to csv the layer names, layer data sources, projection, and other useful info about all layers in all maps. Useful for inspecting an aprx file with tons of data with a wide range of data sources. 
 
-Example screenshot of input parameters.  Drag and drop aprx from windows file explorer.  Output needs full path plus ".csv" extension: <br>
+### To Use
+Open tool in ArcGIS Pro. Drag and drop aprx from windows file explorer.  Output needs full path plus ".csv" extension <br>
+
+Example screenshot of input parameters: <br>
 <img src="img/aprx_lister_screenshot.JPG" width="250">
 
 
