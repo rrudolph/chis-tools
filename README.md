@@ -43,7 +43,7 @@ Example screenshot of input parameters: <br>
 
 
 Example screenshot of tool running with output messages:<br>
-<img src="img/aprx_lister_messages.JPG" width="300">
+<img src="img/aprx_lister_messages.JPG" width="400">
 
 Example csv output. This allows for inspection of broken links or where layers point to data on disk:<br>
 <img src="img/aprx_lister_output.JPG">
