@@ -39,11 +39,11 @@ Walk all maps in an ArcGIS Pro .aprx file and export to csv the layer names, lay
 Open tool in ArcGIS Pro. Drag and drop aprx from windows file explorer.  Output needs full path plus ".csv" extension <br>
 
 Example screenshot of input parameters: <br>
-<img src="img/aprx_lister_screenshot.JPG" width="250">
+<img src="img/aprx_lister_screenshot.JPG" width="300">
 
 
 Example screenshot of tool running with output messages:<br>
-<img src="img/aprx_lister_messages.JPG" width="250">
+<img src="img/aprx_lister_messages.JPG" width="300">
 
 Example csv output. This allows for inspection of broken links or where layers point to data on disk:<br>
 <img src="img/aprx_lister_output.JPG">
