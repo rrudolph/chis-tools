@@ -1,6 +1,10 @@
 # chis-tools
 Tools used at Channel Islands National Park that are universal enough to share on github for anyone that uses ArcGIS Pro software.
 
+## Contents
+
+- [Backup AGOL Services Tool](#AGOL-Services-Tool)
+- [APRX Data Lister Tool](#APRX-Data-Lister-Tool)
 
 ## Backup AGOL Services Tool
 
