@@ -37,10 +37,10 @@ Example tool file output:<br>
 ## APRX Data Lister Tool
 
 ### Purpose
-Walk all maps in an ArcGIS Pro .aprx file and export to csv the layer names, layer data sources, projection, and other useful info about all layers in all maps. Useful for inspecting an aprx file with tons of data with a wide range of data sources. 
+Walk all maps in an ArcGIS Pro .aprx file and export to csv the layer names, layer data sources, projection, and other useful info about all layers in all maps. Since the exact file path of layers in ArcGIS Pro project is not always apparent or easy to view in the context of the entire map frame, this tool is useful for inspecting an .aprx file with a wide range of data sources.
 
 ### To Use
-Open tool in ArcGIS Pro. Drag and drop aprx from windows file explorer.  Output needs full path plus ".csv" extension <br>
+Open tool in ArcGIS Pro. Drag and drop aprx from windows file explorer.  Output needs full path plus ".csv" extension. <br>
 
 Example screenshot of input parameters: <br>
 <img src="img/aprx_lister_screenshot.JPG" width="300">
