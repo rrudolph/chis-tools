@@ -5,7 +5,7 @@ Tools used at Channel Islands National Park that are universal enough to share o
 
 - [Backup AGOL Services Tool](#AGOL-Services-Tool)
 - [APRX Data Lister Tool](#APRX-Data-Lister-Tool)
-- [Geoprocessing Metadata Stripper Tool](#Geoprocessing-Metadata-Stripper-Tool])
+- [Geoprocessing Metadata Stripper Tool](#Geoprocessing-Metadata-Stripper-Tool)
 
 ## Backup AGOL Services Tool
 
