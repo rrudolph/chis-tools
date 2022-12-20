@@ -5,6 +5,7 @@ Tools used at Channel Islands National Park that are universal enough to share o
 
 - [Backup AGOL Services Tool](#AGOL-Services-Tool)
 - [APRX Data Lister Tool](#APRX-Data-Lister-Tool)
+- [Geoprocessing Metadata Stripper Tool](#Geoprocessing-Metadata-Stripper-Tool])
 
 ## Backup AGOL Services Tool
 
@@ -51,3 +52,12 @@ Example screenshot of tool running with output messages:<br>
 
 Example csv output. This allows for inspection of broken links or where layers point to data on disk:<br>
 <img src="img/aprx_lister_output.JPG">
+
+
+## Geoprocessing Metadata Stripper Tool
+
+### Purpose
+Strips geoprocessing metadata from one or more featureclass or shapefiles.  
+
+### To Use
+Open tool in ArcGIS Pro. Drag and drop features from catalog window. Accepts muiltiple files. <br>
